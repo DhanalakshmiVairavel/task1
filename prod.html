@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing:border-box ;
+}
+body {
+    background-color: #f1f1f1;
+    /*padding: 20px;*/
+    font-family: Arial;
+    background-image: url('back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+}
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+/* change the width*/
+.row {
+    margin: 10px -50px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+/* Content */
+.content {
+    background-color:white;
+    padding: 25px;
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+<h1><strong>PRODUCTS</strong></h1>
+<hr>
+<!-- Portfolio gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="lap.jpg" alt="laptop" style="width:100%">
+      <h3>Laptop</h3>
+      <p>A laptop is a personal computer that can be easily moved and used in a variety of locations. Its now very usable.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="joy.jpg" alt="joystick" style="width:100%" style="height: 100%">
+      <h3>Joysticks</h3>
+      <p> A joystick is an input device that can be used for controlling the movement of the cursor or a pointer in a computer device. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="phone.jpg" alt="Phone" style="width:100%">
+      <h3>Phones</h3>
+      <p>A mobile phone is a small portable radio telephone. The mobile phone can be used to communicate over long distances without wires.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="head.jpg" alt="headphones" style="width:100%">
+      <h3>Headphones</h3>
+      <p>Headphones are small speakers that can be worn in or around your ears. Traditional headphones have been placed over your head.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+</div>
+</body>
+</html>
+

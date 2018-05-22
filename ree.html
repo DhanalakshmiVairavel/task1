@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<style>
+    /* Outer box*/
+    .login-box {
+        padding: 25px;
+        width: 720px;
+        height: 820px;
+        background-color: aliceblue;
+        background: rgba(0, 0green, 0blue, 0.5 alpha);
+        color: #645d5d;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border-radius: 10%;
+    }
+    
+</style>
+
+<body>
+    <div class="login-box">
+        <h1>
+            <center>Register</center>
+        </h1>
+            <form>
+                    FirstName:
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname" placeholder="Enter firstname"><br>
+                    LastName:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname" placeholder="Enter lastname"><br>
+                    Address:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="add" placeholder="Enter address"><br>  
+                    Date of birth:    
+                    &nbsp;<input type="text" type="date" placeholder="Enter dd/mm/yyyy"><br>
+                    Gender:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="male" checked> Male<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="gender" value="female"> Female<br>
+                    Mobile No:
+                    &nbsp;&nbsp;&nbsp;<input type="text" name="mno" placeholder="Enter the no" maxlength="10"><br>
+                    Email-id:  
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" placeholder="Enter email"><br>
+                    Qualification:
+                            <select>
+                                <option value="be">B.E</option>
+                                <option value="ee">M.E</option>
+                                <option value="se">BSc</option>
+                                <option value="me">MS</option>
+                            </select><br>
+                    Percentage:
+                    &nbsp;&nbsp;&nbsp;<input type="text" name="per" placeholder="Enter percentage">
+                        
+                <br>
+                <br>
+                <center><input type="submit" value="submit"></center>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Land Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        /* body */
+    body{
+        background-image: url('image1.jpg');
+        background-size: cover;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:15px;
+        margin: 0%;
+        line-height: 24px;
+    }
+  /* .front h2{
+        color: white;
+        text-align: center;
+        text-decoration-color:white;
+    }*/
+    /* navbar */
+    .navbar{
+        text-align: center;
+        width:100%;
+        background-color: rgb(236, 213, 182);
+        opacity:0.9;
+    }
+    /* to set full navbar */
+    .navbar ul{
+        margin: 0%;
+        padding: 0%;
+        list-style: none;
+         position: relative;
+    }
+    /* to list navbar content*/
+    .navbar ul li a{
+    display:block;
+    padding:25px;
+    color:white;
+    text-decoration:none;
+    width:150px;
+    }
+    /*
+    .navbar ul li:hover{
+        background:lavender;
+        transition:0.9s;
+    }*/
+   /*
+    .navbar ul:after{
+        content:"";
+        clear:both;
+        list-style: none;
+    }*/
+    /* for the dropdown */
+    .navbar ul ul{
+        display:none;
+    }
+    /* to print in horizon*/
+    .navbar ul li{
+        float:left;
+        list-style:none;
+    }
+    /* when hover it print sublink */
+    .navbar ul li:hover>ul{
+        display:block;
+    }
+    /* on hover change color*/
+    .navbar ul li:hover{
+        background:black;
+        transition:0.9s;
+    }
+    .navbar ul li:hover a{
+        color:white;
+    }
+    /* the nav position fixed*/
+    .navbar ul ul
+    {
+        background: black;
+        padding:0;
+        margin:0;
+        position: absolute;top:100%;
+    }
+    /* to arrange one by one vertical sublink*/
+.navbar ul ul li {
+    float:none;
+    position: relative;
+}
+/* sublink to be in right*/
+.navbar ul ul li a{
+    padding:25px;
+    color:white;
+    width:300px;
+    text-align: center;
+}
+/*sublink hover color*/
+.navbar ul ul li a:hover{
+    background: lightblue;
+    color:black;
+    transition: 0.9s;
+}
+h2{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;  
+}
+img{
+    opacity: 0.3;
+    margin-right: 30px;
+}
+div{
+    margin-left: 30px;
+}
+  </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+   <li><a href="land.html">Home</a></li> 
+   <li><a href="#">About us</a>
+   <ul>
+        <li><a href="prod.html">Products</a></li>
+        <li><a href="brand.html">Brands</a></li>
+   </ul>
+</li>
+   <li><a href="role.html">Role</a></li> 
+   <li><a href="login.html">Sign in</a></li>
+   <li><a href="ree.html">Register</a></li>
+</ul>
+</div> 
+<br><br><br><br><br><br>
+
+<h2 >Dream about future are always filled with the gadgets!!!!!!!</h2>
+<br><br>
+<!--Right align of image-->
+
+ <img src="back.jpg" alt="face" height="40%" width="50%" align="right">
+
+ <!--<iframe width="420" height="345" src="http://www.venusplay.net">
+ </iframe>-->
+
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ <!--block element-->
+ <div style="background-color:rgb(103, 206, 247); color:white; padding:20px;height: 15%; width: 25%;opacity: 0.5; color: black;">
+        <h2>Gadgets</h2>
+        <p>Good gadgets are like stars..you don't always see them but you know they're always there....</p>
+      </div> 
+</body>
+</html>

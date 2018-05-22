@@ -1,0 +1,93 @@
+/* body background*/
+body{
+    background-image: url('image1.jpg');
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* login box design */
+.login-box
+{
+    width:520px;
+    height:820px;
+    background-color:aliceblue;
+    background: rgba(0, 0green,0blue,0.5 alpha);
+    color:#645d5d;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 20%;    
+}
+img{
+    opacity: 0.6;
+}
+/* style to set for fields */
+input[type=text], input[type=password], input[type=email]
+{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    width: 80%;
+    font-size: 20px;
+}
+select{
+    padding: 12px 20px;
+    margin: 8px 0;
+     display: inline-block;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 20px; 
+}
+input[type=submit]
+{
+    width: 20%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+input[type=radio]
+{
+    padding: 0px 0px;
+    margin: 0px 0;
+    display: inline-block;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 10%;
+}
+/* img size */
+.avatar{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position: relative;
+    /*position of img center*/
+    top:-50px;
+    left:calc(50% - 50px);
+
+}
+/* for head,form,a */
+h1{
+    color:black;
+}
+form{
+    color:black;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+    color:purple;
+}
